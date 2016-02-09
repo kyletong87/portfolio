@@ -22,6 +22,8 @@
 
 .activities p {
   color: black;
+  margin: 0;
+  padding-top: 25px;
 }
 
 .hobbies {
