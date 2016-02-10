@@ -108,6 +108,8 @@ header .profile-image:hover {
 #strike {
 
   font-size: 0.7em;
+  text-decoration: line-through;
+  font-style: italic;
 }
 
 
@@ -192,10 +194,10 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      /*display: -ms-flexbox; */     /* TWEENER - IE 10 */
       display: flex; 
       max-width: 1200px;
-      -ms-flex-pack: distribute;
+      /*-ms-flex-pack: distribute; */ /*original code shows warning with this code, dontknow what is this*/
       justify-content: space-around;
       margin: 0 auto;
   }
